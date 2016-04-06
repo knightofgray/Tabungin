@@ -1,0 +1,78 @@
+
+/* COLOR */
+/*biru:#2980b9*/
+:root {
+  --trans: transparent;
+  --hitam: #525252;
+  --putih: #ffffff;
+  --abu: #ececec;
+  --merah: #F26142;
+  --biru: #375A7F;
+  --hijau: #00bc8c;
+  --border: #9d9d9d;
+}
+
+body{background-color:var(--putih); color:var(--hitam);min-height:100%;font-family:'Segoe UI', sans-serif}
+hr{border-color:var(--border)}
+
+/* POSITION */
+.fixed{position:fixed}
+
+/* NAVBAR */
+.navbar{border-radius: 0;}
+.navbar-default .navbar-brand{color:#fff;font-family: 'Dinpro', sans-serif;text-transform: uppercase;font-weight:800;font-size:1.5em}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{color: var(--abu);}
+
+/* BUTTON */
+.btn{border-radius:0}
+.btn-circle{border-radius:25%}
+
+/* INPUT */
+input.form-control{border-radius:0}
+
+/* GRID */
+.gd-2{height:150px;background-color:var(--biru);color:#fff;overflow:auto}
+.gd-2 #fitur{padding:0 0.5em;font-size: 2.5em;font-family:'Segoe UI', sans-serif;font-weight:200;}
+.gd-2 #fitur p{font-size:13px;text-align: justify}
+.gd-2 #fitur i{font-size:1.2em}
+.gd-6{height:330px;background-color:var(--merah)}
+
+/* SECTION */
+section#slider{height:80%;background-color:var(--biru);}
+
+/* SLIDER */
+.slider-konten hr{border-color:var(--putih)}
+.slider-top .item{width:100%;height:63.5vh;overflow:hidden;color:var(--putih);padding:2% 10%}
+.slider-btn.prev{position:absolute;left:0;top:30%}
+.slider-btn.next{position:absolute;right:0;top:30%}
+.img-slider-first{position:fixed;left:20%;bottom:-30%;width:25%}
+#slider .slider-top .item > .slider-konten h3{font-family:'Dinpro', sans-serif;font-weight:200;background-color:var(--hitam);opacity:0.8;padding:0.5em 0;text-transform:uppercase}
+.item-pertama{padding:2em 1em;background-color:var(--hitam);opacity:0.9}
+.fitur-slider{height:272px;border-radius:0;text-align:center}
+.fitur-slider > .panel-body i{font-size:4em}
+.fitur-slide-title{background-color:var(--merah);padding:1em;font-family:'Dinpro', sans-serif;opacity:0.9;color: var(--putih);}
+.langkah{width:100%}
+.langkah li{display:inline-block;padding:1em 3em;margin:15% 0}
+
+/* PANEL */
+.panel{background-color:var(--abu);color:var(--hitam);border-radius:0;padding:0.7em}
+.panel-success {background-color:var(--hijau)}
+
+/* BG */
+video {position:absolute;top:0;left:20%;max-width:100%;max-height: 64vh;width: auto;height: auto;z-index: 100;}
+.efek{background: transparent url(../img/noise.png) top left repeat;z-index:999;}
+
+/* MODAL */
+.modal-content {border-radius: 0;background-color:var(--putih)}
+.modal-header, .modal-footer {border-color:var(--abu)}
+
+/* FORM */
+.well{min-height: 20px;padding: 19px 19px 0;margin-bottom: 20px;background-color: #efefef;border: 1px solid #e8e8e8;border-radius: 0;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);}
+.well blockquote {border-color: #ddd;border-color: rgba(0, 0, 0, 0.15);}
+.well-lg {padding: 24px;border-radius: 0;}
+.well-sm {padding: 9px;border-radius: 0;}
+.form-control, input, textarea{border:1px solid var(--border)}
+.form-control, input, textarea:focus{color:var(--hitam)}
+
+/* FOOTER */
+.footer{background-color:var(--abu);clear: both;position: relative;z-index: 10;padding:0.7em 1em}
